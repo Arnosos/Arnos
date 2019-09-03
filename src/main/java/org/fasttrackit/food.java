@@ -15,7 +15,4 @@ public class food {
         this.availability="available";
 
     }
-
-
-
 }

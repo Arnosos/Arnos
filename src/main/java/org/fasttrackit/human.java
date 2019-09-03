@@ -3,15 +3,22 @@ package org.fasttrackit;
 public class human {
     String name;
     int age;
-    Boolean female;
-    Boolean male;
+    boolean female;
+    boolean male;
+    boolean animalLover;
 
-    public human(int age,Boolean male, String name) {
+
+    public human(int age,Boolean male, String name,boolean animalLover) {
         this.age=19;
         this.male=true;
         this.name=name;
+        this.animalLover=true;
 
     }
+
+    public human(boolean animalLover) {true}
+
+
     public String name() {
         String name = this.name;
         String s = name;
@@ -26,8 +33,5 @@ public class human {
         System.out.println("Hi");
     }
 
-    public class animal extends Animal {
-        boolean condition;
-    }
 
 }
